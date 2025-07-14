@@ -1,0 +1,27 @@
+{
+    "badge": {
+        "text": "CASE STUDIES"
+    },
+    "headline": "Stories about impact",
+    "description": "Sociis faucibus non vestibulum fermentum aliquam amet. At scelerisque a tincidunt sit faucibus in pellentesque mattis.",
+    "cards": [
+        {
+            "id": "pacha",
+            "logo": "/assets/images/stories-about-impact/pachaViolet.svg",
+            "title": "Pacha",
+            "description": "Enim dui cras auctor tortor sed felis ultrices. Nulla semper molestie turpis id et arcu accumsan est.",
+            "image": "/assets/images/stories-about-impact/pachaWebsite.svg",
+            "readStory": true,
+            "cardBgColor": "#B99AF7"
+        },
+        {
+            "id": "converso",
+            "logo": "/assets/images/stories-about-impact/conversoblue.svg",
+            "title": "converso",
+            "description": "Enim dui cras auctor tortor sed felis ultrices. Nulla semper molestie turpis id et arcu accumsan est.",
+            "image": "/assets/images/stories-about-impact/conversoWebsite.svg",
+            "readStory": true,
+            "cardBgColor": "#E5F1FE"
+        }
+    ]
+}

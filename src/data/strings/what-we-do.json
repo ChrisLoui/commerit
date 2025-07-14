@@ -1,0 +1,11 @@
+{
+    "badge": {
+        "text": "WHAT WE DO"
+    },
+    "headline": "Improving your workflow",
+    "description": "A feugiat lectus ut nunc congue et vel ornare.",
+    "navigation": {
+        "prevLabel": "Previous",
+        "nextLabel": "Next"
+    }
+}

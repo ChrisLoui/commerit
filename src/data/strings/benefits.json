@@ -1,0 +1,32 @@
+{
+    "cards": [
+        {
+            "id": "lower-costs",
+            "title": "Lower Costs",
+            "description": "Cut operational expenses by automating repetitive tasks. Allocate your budget more efficiently for growth.",
+            "icon": "/assets/images/what-we-do/icons/lower-costs.svg",
+            "iconAlt": "Descending boxes with dollar sign"
+        },
+        {
+            "id": "scale-operations",
+            "title": "Easier to scale your operations",
+            "description": "Quickly adapt to growing demands without hiring more staff. Automation makes it simple to expand.",
+            "icon": "/assets/images/what-we-do/icons/scale-operations.svg",
+            "iconAlt": "Growth chart with upward trend"
+        },
+        {
+            "id": "24-7-availability",
+            "title": "24/7 availability",
+            "description": "Provide round-the-clock support without increasing costs. Never miss a customer interaction.",
+            "icon": "/assets/images/what-we-do/icons/24-7-availability.svg",
+            "iconAlt": "Clock/gauge interface"
+        },
+        {
+            "id": "23-7-availability",
+            "title": "24/7 availability",
+            "description": "Provide round-the-clock support without increasing costs. Never miss a customer interaction.",
+            "icon": "/assets/images/what-we-do/icons/24-7-availability.svg",
+            "iconAlt": "Clock/gauge interface"
+        }
+    ]
+}

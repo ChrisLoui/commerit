@@ -1,0 +1,18 @@
+{
+    "badge": {
+        "text": "AI SOFTWARE AGENCY",
+        "icon": "🔧"
+    },
+    "headline": "We build custom AI agents that automate your business",
+    "subheading": "From support to sales to operations—we replace manual tasks with tailored AI systems.",
+    "cta": {
+        "primary": {
+            "text": "TALK WITH DAVID",
+            "href": "/talk-with-david"
+        },
+        "secondary": {
+            "text": "EXPLORE PRICING",
+            "href": "/pricing"
+        }
+    }
+}

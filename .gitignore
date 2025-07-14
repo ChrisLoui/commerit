@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#cursor-rule
+.cursor/rules/project-custom-rule.mdc

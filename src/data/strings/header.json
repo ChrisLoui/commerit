@@ -1,0 +1,34 @@
+{
+    "logo": {
+        "text": "Commerit",
+        "src": "/assets/images/header/commerit.svg",
+        "alt": "Commerit Logo"
+    },
+    "navigation": [
+        {
+            "label": "CASE STUDIES",
+            "href": "/case-studies"
+        },
+        {
+            "label": "CUSTOMERS",
+            "href": "/customers"
+        },
+        {
+            "label": "ABOUT",
+            "href": "/about"
+        },
+        {
+            "label": "PRODUCTS",
+            "href": "/products",
+            "hasDropdown": true
+        },
+        {
+            "label": "EXPLORE PRICING",
+            "href": "/pricing"
+        }
+    ],
+    "cta": {
+        "text": "TALK WITH DAVID",
+        "href": "/talk-with-david"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "title": "TRUSTED BY",
+    "subTitle": "INDUSTRY LEADERS",
+    "companies": [
+        {
+            "name": "Concussion",
+            "logo": "/assets/images/trust/logos/concussion.svg",
+            "alt": "Concussion Logo"
+        },
+        {
+            "name": "Stergero",
+            "logo": "/assets/images/trust/logos/stergero.svg",
+            "alt": "Stergero Logo"
+        },
+        {
+            "name": "Pacha",
+            "logo": "/assets/images/trust/logos/pacha.svg",
+            "alt": "Pacha Logo"
+        },
+        {
+            "name": "MAGA",
+            "logo": "/assets/images/trust/logos/maga.svg",
+            "alt": "MAGA Logo"
+        },
+        {
+            "name": "WES",
+            "logo": "/assets/images/trust/logos/wes.svg",
+            "alt": "WES Logo"
+        },
+        {
+            "name": "Converso",
+            "logo": "/assets/images/trust/logos/converso.svg",
+            "alt": "Converso Logo"
+        }
+
+    ]
+}

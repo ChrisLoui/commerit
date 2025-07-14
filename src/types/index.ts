@@ -77,6 +77,24 @@ export interface BenefitsData {
     cards: BenefitCard[];
 }
 
+// Stories About Impact types
+export interface StoryCard {
+    id: string;
+    logo: string;
+    title: string;
+    description: string;
+    image: string;
+    readStory: boolean;
+    cardBgColor: string;
+}
+
+export interface StoriesAboutImpactData {
+    badge: { text: string };
+    headline: string;
+    description: string;
+    cards: StoryCard[];
+}
+
 // Combined types
 export interface AllStrings {
     header: HeaderData;
@@ -84,4 +102,5 @@ export interface AllStrings {
     trust: TrustData;
     whatWeDo: WhatWeDoData;
     benefits: BenefitsData;
+    storiesAboutImpact: StoriesAboutImpactData;
 }

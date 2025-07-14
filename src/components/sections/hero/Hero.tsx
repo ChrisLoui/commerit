@@ -83,7 +83,7 @@ export const Hero: React.FC = () => {
                             {/* Companies container with even spacing */}
                             <div className="flex-1 min-w-0">
                                 <div className="flex items-center justify-between w-full">
-                                    {companies.map((company, index) => (
+                                    {companies.map((company) => (
                                         <div
                                             key={company.name}
                                             className="flex items-center justify-center flex-1"

@@ -4,6 +4,8 @@ import { Badge } from '@/components/shared/ui/Badge';
 import { ChevronNavigation } from '@/components/shared';
 import { strings } from '@/data';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
+import Image from 'next/image';
+import { StoryCard } from '@/types';
 
 export const StoriesAboutImpact: React.FC = () => {
     const { badge, headline, description, cards } = strings.storiesAboutImpact;
@@ -52,9 +54,11 @@ export const StoriesAboutImpact: React.FC = () => {
     return (
         <section className="bg-white min-h-screen w-full flex flex-col justify-center relative overflow-hidden">
             {/* Blender Image as header accent */}
-            <img
+            <Image
                 src={'/assets/images/stories-about-impact/blender.svg'}
                 alt="Blender Icon"
+                width={200}
+                height={200}
                 className="absolute top-0 right-0 object-contain z-10 mr-20 pointer-events-none select-none"
             />
             <div className="px-20 pt-8">
@@ -92,7 +96,7 @@ export const StoriesAboutImpact: React.FC = () => {
                 ref={scrollRef}
                 className="flex flex-row pb-20 px-20 gap-10 items-stretch mt-8 overflow-x-auto snap-x snap-mandatory pb-4 scrollbar-hide"
             >
-                {cards.map((card: any) => (
+                {cards.map((card: StoryCard) => (
                     <div
                         key={card.id}
                         className=""
@@ -103,7 +107,13 @@ export const StoriesAboutImpact: React.FC = () => {
                             <div className="flex flex-col  p-10 justify-between h-full w-1/2">
                                 <div>
                                     <div className="flex items-center mb-6">
-                                        <img src={card.logo} alt={card.title} className="height-auto" />
+                                        <Image
+                                            src={card.logo}
+                                            alt={card.title}
+                                            width={100}
+                                            height={40}
+                                            className="height-auto"
+                                        />
                                     </div>
                                     <p className="text-[#3B2566] text-base font-normal leading-snug mb-12 text-left">
                                         {card.description}
@@ -115,9 +125,11 @@ export const StoriesAboutImpact: React.FC = () => {
                             </div>
                             {/* Image */}
                             <div className="">
-                                <img
+                                <Image
                                     src={card.image}
                                     alt="Story visual"
+                                    width={400}
+                                    height={300}
                                     className="h-100 w-auto rounded-lg"
                                 />
                             </div>

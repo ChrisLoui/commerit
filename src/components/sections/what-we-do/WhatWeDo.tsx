@@ -3,11 +3,11 @@ import React, { useRef, useState, useEffect } from 'react';
 import { strings } from '@/data';
 import { WhatWeDoCard } from './WhatWeDoCard';
 import { Badge } from '@/components/shared/ui/Badge';
-import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
+
 import { ChevronNavigation } from '@/components/shared/ui/ChevronNavigation';
 
 export const WhatWeDo: React.FC = () => {
-    const { headline, description, navigation, badge } = strings.whatWeDo;
+    const { headline, description, badge } = strings.whatWeDo;
     const { cards } = strings.benefits;
 
     const scrollRef = useRef<HTMLDivElement>(null);

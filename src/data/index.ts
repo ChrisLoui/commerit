@@ -13,10 +13,3 @@ export const strings = {
     benefits: benefitsData,
     storiesAboutImpact: storiesAboutImpactData,
 };
-
-export * from './strings/header.json';
-export * from './strings/hero.json';
-export * from './strings/trust.json';
-export * from './strings/what-we-do.json';
-export * from './strings/benefits.json';
-export * from './strings/stories-about-impact.json';
